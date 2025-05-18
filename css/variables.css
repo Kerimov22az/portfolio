@@ -1,0 +1,24 @@
+:root { 
+    --font-family: 'DM sans', sans-serif;
+    --second-family: 'popins';
+    --bg-color-nav: #000;
+    --bg-color: #8b8585;
+    --bg-color-btn: #fff;
+    --color-btn: #fff;
+    --page-text-color: #a8a5a5;
+    --bg-image: url(../images/bg-image-ligh.png);
+    --text-color: #000;
+    --nav-color: #fff;
+    --accent-color: rgb(27, 19, 189);
+    --index: calc(1vh + 1vw);
+}
+
+.dark {
+    --page-text-color: #fff;
+    --bg-image: url(../images/bg-image-dark.png);
+    --nav-color: #bfbed1;
+    --text-color: #fff;
+    --accent-color: rgb(47, 174, 183);
+    --bg-color: #000;
+    --color-btn: #fff;
+}
